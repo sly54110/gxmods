@@ -1,0 +1,50 @@
+{
+    « name »: « PS4 mode »,
+    « description »: « pour les fane de playstation »,
+    « développeur » :Vaati0
+    {
+        « name »: « LE NOM DU DÉVELOPPEUR VA ICI »
+    },
+    « icônes »:
+    {
+        « 1 »: « icon_1.png »
+    },
+    « manifest_version »: 3,
+    « mod »:
+    {
+        « licence »: « licence.txt »,
+        « charge utile » :
+        {
+            « background_music »:
+            [
+                « musique/PlayStation 4 System Music - Home Menu_A6ciGdy50sI.mp3 »,
+       
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            },
+            « papier peint »:
+            {
+                « sombre » :
+                {   
+                    « image »: « fond d’écran/foncé.png »,
+                    « text_color »: « #FFFFFF »,
+                    « text_shadow »: « #757575 »
+                },
+                « lumière »:
+                {
+                    « image »: « fond d’écran/vidéo.webm »,
+                    « first_frame »: « papier peint/first_frame.jpeg »,
+                    « text_color »: « #FFFFFF »,
+                    « text_shadow »: « #0B000E »
+                }
+            }
+        },
+        « schema_version »: 1
+    },
+    « version »: « 1.0 »
+}
